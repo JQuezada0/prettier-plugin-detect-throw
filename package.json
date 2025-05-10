@@ -1,9 +1,14 @@
 {
   "name": "prettier-plugin-detect-throw",
+  "version": "1.0.0",
   "type": "module",
   "module": "./dist/index.js",
   "main": "./dist/index.js",
   "description": "A Prettier plugin to detect and enforce rules for throw statements",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JQuezada0/prettier-plugin-detect-throw.git"
+  },
   "keywords": [
     "prettier",
     "prettier-plugin",
@@ -35,9 +40,17 @@
     "estree-util-attach-comments": "3.0.0",
     "micromatch": "4.0.8"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "build": "bun build index.ts --outdir ./dist --external prettier",
+    "build": "bun build index.ts --outdir ./dist --external prettier --minify",
     "watch": "bun build index.ts --outdir ./dist --external prettier --watch"
   }
 }
