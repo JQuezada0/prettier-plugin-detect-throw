@@ -1,7 +1,8 @@
 # prettier-plugin-detect-throw
 
 [![npm version](https://badge.fury.io/js/prettier-plugin-detect-throw.svg)](https://badge.fury.io/js/prettier-plugin-detect-throw)
-[![NPM](https://nodei.co/npm/prettier-plugin-detect-throw.png)](https://nodei.co/npm/prettier-plugin-detect-throw/)
+
+[![NPM](https://nodei.co/npm/prettier-plugin-detect-throw.png?mini=true&downloads=true)](https://nodei.co/npm/prettier-plugin-detect-throw/)
 
 A Prettier plugin that identifies and highlights throw statements in your TypeScript code, optionally enforcing that only specific error classes are thrown.
 
